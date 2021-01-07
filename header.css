@@ -1,0 +1,71 @@
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li
+ {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) 
+{background-color:#3b0aad;
+  color:yellow;
+}
+
+ul.topnav li a.active {
+  background-color:#ad0a33;
+ 
+}
+
+ul.topnav li.right 
+{float: right;
+  color:white;
+}
+
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+ 
+ .aboutMe{
+  width: 90%;
+  word-wrap: break-word;
+  font-size: 14px;
+  padding: 9%;
+  background-color: rgb(255, 92, 71);
+  margin: 2rem;
+
+}
+}
+
+@media screen and (max-width: 700px) {
+
+.aboutMe{
+  width: 88%;
+  word-wrap: break-word;
+  font-size: 12px;
+  padding: 9%;
+  margin: 2rem;
+}
+}
+@media screen and (max-width: 600px) {
+
+  .aboutMe{
+    width: 88%;
+    word-wrap: break-word;
+    font-size: 12px;
+    padding: 9%;
+    background-color: rgb(255, 83, 71);
+    margin: 2rem;
+  }
+  }

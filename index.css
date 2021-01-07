@@ -1,0 +1,191 @@
+body{
+    background-color: rgb(240, 247, 234);
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+span{
+    color: #007bff;
+    font-family:Lobster Two;
+
+  }
+  .aboutMe{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 40rem;
+  }
+  .name {
+      font-family: 'Great Vibes', cursive;
+      text-align: center;
+      padding-top: 8rem;
+      margin-top: 0rem;
+      
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color:black;
+    color: white;
+    font-family: 'Great Vibes', cursive;
+    position: relative;
+    
+    
+  }  
+
+  .butten{
+    display: inline;
+}
+
+.row{
+  display: flex;
+    flex-direction: row;
+   
+    
+  
+
+}
+
+
+.flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+
+
+  
+  .myButton {
+      display: block;
+      box-shadow: 4px 1px 4px -1px #485245;
+      background-color:#060807;
+      border-radius:17px;
+      border:3px solid #e2e4e3;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Arial;
+      font-size:17px;
+      padding:14px 58px;
+      text-decoration:none;
+      text-shadow:2px 3px 4px #0c0e0b;
+      margin-bottom: 9rem;
+   
+   
+  }
+
+  .btn-hover{min-height: 45px; width: 225px; border-radius: 30px;
+     border: 3px solid white; background-color: rgb(0, 0, 0);
+      font-family: Verdana, "Lucida Sans Unicode", sans-serif;
+       height: 55px; color: rgb(237, 237, 237); font-size: 23px;
+        font-weight: 500; letter-spacing: 1px;}
+  .btn-hover:hover{
+    background-color:#3b0aad;
+    text-decoration: none;
+    color:yellow;
+  }
+  .about{
+    margin-bottom: 2rem;
+    margin-left: 70rem;
+  }
+
+  .myButton:hover {
+      background-color:#3b0aad;
+      text-decoration: none;
+      color:yellow;
+  }
+  .myButton:active {
+      position:relative;
+      top:1px;
+  }
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 33.33%;
+  /* padding: 0 10px; */
+  
+}
+
+img {
+  vertical-align: baseline;
+  height: 250px;
+  width: 100%;
+}
+
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 1rem;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  margin: 10px;
+  display: block;
+ 
+}
+
+
+.fa-arrow-right:before{
+  color:red;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 1024px) {
+  .column {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+   
+  }
+ 
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+   
+  }
+ 
+}
+
+  @media screen and (max-width: 700px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin: 20px;
+  }
+
+}
+
+
+
