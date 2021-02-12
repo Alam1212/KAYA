@@ -162,16 +162,20 @@ margin-left: 20px;
 font-size: 20px;
 }
 .form-group{
-  background-color: burlywood;
+  background-color: #498686;
   
 }
 #form-submit{
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 .form-contact{
   width: 100%;
+ 
 
+}
+h3 {
+  padding-top: 20px;
 }
 
 
@@ -179,7 +183,7 @@ font-size: 20px;
 .card-footer {
   display: flex;
   flex-direction: row;
-  background-color: #006666;
+  background-color:  #1c5e5e;
   height: 10rem;
   margin: 1.5rem;
    
